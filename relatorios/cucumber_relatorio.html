@@ -1,0 +1,1773 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Relatório de Testes automatizados - Teste técnico JP</title>
+
+  <link rel="icon" href="https://reportbuilder.rajatthareja.com/rb.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection"/>
+  <link href="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/css/report.builder.min.css" rel="stylesheet">
+
+  
+</head>
+
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+<header class="green lighten-5">
+  <div class="row green lighten-1">
+    <div class="col m6 hide-on-small-only">
+      <h5 class="truncate white-text tooltipped" data-tooltip="Relatório de Testes automatizados - Teste técnico JP">Relatório de Testes automatizados - Teste técnico JP</h5>
+    </div>
+
+    <div class="col m6 s12 green lighten-1">
+      <ul class="tabs green lighten-1 row" style="overflow-x: hidden">
+        <li class="tab col s3">
+          <a class="green lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
+        </li>
+        <li class="tab col s3">
+          <a class="green lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
+        </li>
+        <li class="tab col s3">
+          <a class="green lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
+        </li>
+        <li class="tab col s3">
+          <a class="green lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+    
+
+    
+    
+
+    
+    
+        
+        <div id="g0f0s0" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@api</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@make</div>
+        
+    
+
+    <h5>Consultar serviço de marcas sem filtro (0.607s)</h5>
+    features/spec/api/online_challenge.feature:7
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu quero consultar as marcas de veiculos (0.002s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> realizar uma requisição para consultar as marcas de veiculos (0.531s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Entao </b> devo visualizar uma lista de marca disponivel (0.074s)
+
+  
+
+  
+      
+          <br/>| 
+          
+              Name | 
+          
+      
+          <br/>| 
+          
+              Chevrolet | 
+          
+      
+          <br/>| 
+          
+              Honda | 
+          
+      
+          <br/>| 
+          
+              Ford | 
+          
+      
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@api</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@model</div>
+        
+    
+
+    <h5>Consultar serviço modelo (0.417s)</h5>
+    features/spec/api/online_challenge.feature:27
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu quero consultar os modelos pela marca (0.002s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> realizar uma requisição com o &#39;2&#39; da marca (0.414s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Entao </b> devo visualizar o modelo de acordo com a marca informada (0.000s)
+
+  
+
+  
+      
+          <br/>| 
+          
+              Name | 
+          
+      
+          <br/>| 
+          
+              City | 
+          
+      
+          <br/>| 
+          
+              CRV | 
+          
+      
+          <br/>| 
+          
+              Fit | 
+          
+      
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s2" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@api</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@version</div>
+        
+    
+
+    <h5>Consultar versão do modelo (0.428s)</h5>
+    features/spec/api/online_challenge.feature:42
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu quero consultar a versão de modelo (0.005s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> realizar uma requisição com o &#39;8&#39; da modelo (0.423s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Entao </b> devo visualiar a versao de acordo com o modelo informado (0.000s)
+
+  
+
+  
+      
+          <br/>| 
+          
+              Name | 
+          
+      
+          <br/>| 
+          
+              1.5 DX 16V FLEX 4P AUTOMÁTICO | 
+          
+      
+          <br/>| 
+          
+              1.5 LX 16V FLEX 4P MANUAL | 
+          
+      
+          <br/>| 
+          
+              2.0 EXL 4X4 16V GASOLINA 4P AUTOMÁTICO | 
+          
+      
+          <br/>| 
+          
+              1.8 16V EVO FLEX FREEDOM OPEN EDITION AUTOMÁTICO | 
+          
+      
+          <br/>| 
+          
+              1.0 MPI EL 8V FLEX 4P MANUAL | 
+          
+      
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s3" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@api</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@vehicles</div>
+        
+    
+
+    <h5>Consultar informações do veiculo pelo modelo (0.443s)</h5>
+    features/spec/api/online_challenge.feature:60
+
+    
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu quero consultar a veiculo pelo modelo (0.003s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> realizar uma requisição com o &#39;3&#39; da modelo (0.413s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Entao </b> devo visualiar o veiculo de acordo com o modelo informado (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualiar a marca do veiculo &#39;Ford&#39; (0.027s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualiar o modelo &#39;Ecosport&#39; (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualiar o versao do veiculo &#39;1.6 FREESTYLE 16V FLEX 4P MANUAL&#39; (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualiar a quantidade de km do veiculo 93000 (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualiar o preco &#39;45000,00&#39; (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualiar o ano do modelo 2013 (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualiar o ano de fabricacao 2012 (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualiar a cor &#39;Branca&#39; (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+
+    
+        
+        <div id="g0f1s0" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@mobile</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@listagem_veiculos</div>
+        
+    
+
+    <h5>Validar listagem de veiculos na home (36.287s)</h5>
+    features/spec/mobile/home.feature:7
+
+    
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu abrir a aplicação (4.463s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> visualizar uma lista de veiculos disponiveis (7.194s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Entao </b> devo visualizar imagem (0.338s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar valor (0.371s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar modelo (0.354s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar ano com km (0.356s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+
+    
+        
+        <div id="g0f2s0" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@mobile</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@detalhes_veiculo</div>
+        
+    
+
+    <h5>Validar informações de um determinado veiculo (33.149s)</h5>
+    features/spec/mobile/detalhes.feature:19
+
+    
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu abrir a aplicação (4.549s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> selecionar um veiculo &#39;City&#39; (1.371s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Entao </b> devo visualizar o &#39;Honda City&#39; (0.367s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar a descricao &#39;2.0 EXL 4X4 16V GASOLINA 4P AUTOMÁTICO&#39; (0.380s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar o valor &#39;R$ 59.000,00&#39; (0.357s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar o ano &#39;2017/2018&#39; (0.346s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar a quantidade de km &#39;0KM&#39; (0.306s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar a cor do veiculo &#39;Azul&#39; (0.335s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f2s1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@mobile</div>
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@detalhes_veiculo</div>
+        
+    
+
+    <h5>Validar informações de um determinado veiculo (30.855s)</h5>
+    features/spec/mobile/detalhes.feature:20
+
+    
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Dado </b> que eu abrir a aplicação (4.629s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Quando </b> selecionar um veiculo &#39;Lancer&#39; (1.377s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Entao </b> devo visualizar o &#39;Mitsubishi Lancer&#39; (0.803s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar a descricao &#39;2.0 EVO 4P AUTOMÁTICO&#39; (0.349s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar o valor &#39;R$ 49.000,00&#39; (0.300s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar o ano &#39;2012/2012&#39; (0.314s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar a quantidade de km &#39;47500KM&#39; (0.303s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>E </b> devo visualizar a cor do veiculo &#39;Branco&#39; (0.345s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        
+        $('#g0f0s0').modal();
+        
+        $('#g0f0s1').modal();
+        
+        $('#g0f0s2').modal();
+        
+        $('#g0f0s3').modal();
+        
+        $('#g0f0s4').modal();
+        
+        $('#g0f1s0').modal();
+        
+        $('#g0f1s1').modal();
+        
+        $('#g0f2s0').modal();
+        
+        $('#g0f2s1').modal();
+        
+        $('#g0f2s2').modal();
+        
+    });
+</script>
+
+
+    <main class="green lighten-5">
+      <div class="row">
+
+        <div id="overview" class="col s12 green lighten-5">
+          <div class="row">
+  <div class="col m4 s12">
+    <canvas id="featuresDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataFeatures" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <canvas id="scenariosDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataScenarios" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <table id="metaData" class="bordered">
+      <tbody>
+      <tr><th>Total Time</th><td>1m 42.19s</td></tr>
+      
+          <tr>
+            <th>Project name</th>
+            <td>WebMotors</td>
+          </tr>
+      
+          <tr>
+            <th>Platform</th>
+            <td>Back e Front</td>
+          </tr>
+      
+          <tr>
+            <th>Report generated</th>
+            <td>2022-03-21 00:08:23 -0300</td>
+          </tr>
+      
+      </tbody>
+    </table>
+  </div>
+</div>
+
+        </div>
+
+        <div id="features" class="col s12 green lighten-5 white-text">
+          <ul class="featureList collapsible popout" data-collapsible="expandable">
+  
+      
+      <li class="feature working">
+  <div class="collapsible-header green lighten-1 waves-effect waves-light">
+    <i class="material-icons">featured_play_list</i>
+    <b>Funcionalidade</b>&nbsp;Validar API WebMotors Teste Técnico&nbsp;(1.895s)
+  </div>
+
+  <div class="collapsible-body green lighten-4">
+    <div class="collection scenarioList green">
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s0">
+          <b>Cenário</b> Consultar serviço de marcas sem filtro&nbsp;(0.607s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s1">
+          <b>Esquema do Cenário</b> Consultar serviço modelo&nbsp;(0.417s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s2">
+          <b>Esquema do Cenário</b> Consultar versão do modelo&nbsp;(0.428s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s3">
+          <b>Esquema do Cenário</b> Consultar informações do veiculo pelo modelo&nbsp;(0.443s)
+        </a>
+      
+    </div>
+  </div>
+</li>
+
+  
+      
+      <li class="feature working">
+  <div class="collapsible-header green lighten-1 waves-effect waves-light">
+    <i class="material-icons">featured_play_list</i>
+    <b>Funcionalidade</b>&nbsp;Validar Listagem Home&nbsp;(36.287s)
+  </div>
+
+  <div class="collapsible-body green lighten-4">
+    <div class="collection scenarioList green">
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s0">
+          <b>Cenário</b> Validar listagem de veiculos na home&nbsp;(36.287s)
+        </a>
+      
+    </div>
+  </div>
+</li>
+
+  
+      
+      <li class="feature working">
+  <div class="collapsible-header green lighten-1 waves-effect waves-light">
+    <i class="material-icons">featured_play_list</i>
+    <b>Funcionalidade</b>&nbsp;Validar detalhes por veiculo&nbsp;(1m 4.00s)
+  </div>
+
+  <div class="collapsible-body green lighten-4">
+    <div class="collection scenarioList green">
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f2s0">
+          <b>Esquema do Cenário</b> Validar informações de um determinado veiculo&nbsp;(33.149s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f2s1">
+          <b>Esquema do Cenário</b> Validar informações de um determinado veiculo&nbsp;(30.855s)
+        </a>
+      
+    </div>
+  </div>
+</li>
+
+  
+</ul>
+
+        </div>
+
+        <div id="summary" class="col s12 green lighten-5">
+          <table id="summaryTable" class="bordered green lighten-1 white-text" width="100%">
+  <thead>
+  <tr>
+    <th class="hide-on-small-only">Feature</th>
+    <th>Scenario</th>
+    <th class="hide">Tags</th>
+    <th>Status</th>
+
+
+    
+
+    <th class="hide-on-small-only">Error</th>
+  </tr>
+  </thead>
+  <tbody>
+  
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Validar API WebMotors Teste Técnico
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s0">
+  Consultar serviço de marcas sem filtro
+</td>
+
+<td class="hide">
+  
+      
+          @api. 
+      
+          @make. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Validar API WebMotors Teste Técnico
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s1">
+  Consultar serviço modelo
+</td>
+
+<td class="hide">
+  
+      
+          @api. 
+      
+          @model. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Validar API WebMotors Teste Técnico
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s2">
+  Consultar versão do modelo
+</td>
+
+<td class="hide">
+  
+      
+          @api. 
+      
+          @version. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Validar API WebMotors Teste Técnico
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s3">
+  Consultar informações do veiculo pelo modelo
+</td>
+
+<td class="hide">
+  
+      
+          @api. 
+      
+          @vehicles. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+  
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Validar Listagem Home
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s0">
+  Validar listagem de veiculos na home
+</td>
+
+<td class="hide">
+  
+      
+          @mobile. 
+      
+          @listagem_veiculos. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+  
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Validar detalhes por veiculo
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f2s0">
+  Validar informações de um determinado veiculo
+</td>
+
+<td class="hide">
+  
+      
+          @mobile. 
+      
+          @detalhes_veiculo. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Validar detalhes por veiculo
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f2s1">
+  Validar informações de um determinado veiculo
+</td>
+
+<td class="hide">
+  
+      
+          @mobile. 
+      
+          @detalhes_veiculo. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+  
+  </tbody>
+</table>
+
+        </div>
+
+        <div id="errors" class="col s12 green lighten-5">
+          <ul class="errorList collapsible popout" data-collapsible="expandable">
+  
+</ul>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer green lighten-4">
+  <div class="footer-copyright green lighten-1">
+    <div class="container">
+      Happy Reporting!
+      <a class="white-text text-lighten-4 right" href="https://reportbuilder.rajatthareja.com">Generated by Report Builder</a>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/js/report.builder.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
