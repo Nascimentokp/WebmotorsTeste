@@ -12,10 +12,13 @@
   Para executar os testes para parte técnica. pode ser da seguinte formas:
   ```  
   $ cucumber
-
-  $ cucumber -t @mobile
-
   $ bundle exec cucumber
+
+- Mobile
+  $ cucumber -t @mobile
+  
+ - API
+  $ cucumber -t @api 
 
 ```
  - Poderia também criar um arquivo Rakefile, porém acredito que para esse momento não seja necessário. mas se fosse para rodar real na squad é recomendado.
